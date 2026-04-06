@@ -3,7 +3,7 @@ import os
 import json
 import requests
 from dotenv import load_dotenv
-import allure
+
 
 class VKAPIClient:
     def __init__(self, config_path="config/env_variables.json"):
